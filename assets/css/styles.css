@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - Red 000*/
+    --hue-color: 163; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - Red 000*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 37%);
@@ -137,7 +137,9 @@ img{
     height: auto;
 }
 
-
+.blurred {
+    filter: blur(5px);
+}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
